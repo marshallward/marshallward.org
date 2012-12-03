@@ -6,6 +6,6 @@ blog:
 	pelican -s $(CONFIG) -o $(OUTPUT) $(CONTENT)
 
 clean:
-	rm -rf $(OUTPUT)
+	rm -rf $(OUTPUT) $(CONFIG:.py=.pyc)
 
 .PHONY: blog clean
