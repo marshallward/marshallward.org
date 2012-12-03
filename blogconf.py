@@ -10,8 +10,7 @@ LOCALE = 'C'
 MARKUP = ('rst')
 DEFAULT_CATEGORY = 'Other'
 
-# Anti-social networks
-SOCIAL = (('twitter', 'http://twitter.com/marshall_ward'),
-                  ('github', 'http://github.com/marshallward'),)
-
-#TWITTER_USERNAME = 'marshall_ward'
+SOCIAL = (
+          ('twitter', 'http://twitter.com/marshall_ward'),
+          ('github', 'http://github.com/marshallward'),
+         )

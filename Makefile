@@ -2,7 +2,7 @@ CONTENT = content
 OUTPUT  = output
 CONFIG  = blogconf.py
 
-blog:
+blog: $(CONTENT)
 	pelican -s $(CONFIG) -o $(OUTPUT) $(CONTENT)
 
 clean:

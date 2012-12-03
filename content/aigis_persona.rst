@@ -7,6 +7,10 @@ Persona: Aegis or Aigis?
 :author:    Marshall Ward
 :lang:      en
 
+.. image:: images/aigis.jpg
+   :width: 500
+   :alt: Aigis
+
 Sweating through Persona 3 Portable has turned me into a Persona fan, and one
 of the more interesting characters is the Anti-Shadow Suppression Weapon,
 Aigis.  But there is one thing I find confusing about her: How do I spell her
