@@ -7,7 +7,7 @@ Persona: Aegis or Aigis?
 :author:    Marshall Ward
 :lang:      en
 
-.. image:: images/aigis.jpg
+.. image:: static/images/aigis.jpg
    :width: 500
    :alt: Aigis
 
