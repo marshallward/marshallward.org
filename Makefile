@@ -1,6 +1,6 @@
 CONTENT = content
 OUTPUT  = output
-CONFIG  = blogconf.py
+CONFIG  = peliconf.py
 
 blog: $(CONTENT)
 	pelican -s $(CONFIG) -o $(OUTPUT) $(CONTENT)
