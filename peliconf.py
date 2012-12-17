@@ -20,3 +20,12 @@ SOCIAL = (
             ('github', 'http://github.com/marshallward'),
             ('flickr', 'http://www.flickr.com/photos/marshallward/')
          )
+
+# MaWa theme variables
+# (Maybe move these to pelican?)
+
+from pelican import __version__
+PELICAN_VERSION = __version__
+
+from datetime import datetime
+BUILD_DATE = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
