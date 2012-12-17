@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+AUTHOR = 'Marshall Ward'
 SITENAME = "Marshall's Blog"
 SITEURL = 'http://marshallward.org'
-AUTHOR = 'Marshall Ward'
 TIMEZONE = 'Australia/Canberra'
 LOCALE = 'C'
 
