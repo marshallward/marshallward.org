@@ -9,7 +9,7 @@ LOCALE = 'C'
 
 STATIC_PATHS = ['images']
 
-DEFAULT_PAGINATION = 4
+#DEFAULT_PAGINATION = 4
 
 MARKUP = ('rst')
 DEFAULT_CATEGORY = 'Other'
@@ -22,7 +22,7 @@ SOCIAL = (
          )
 
 # MaWa theme variables
-# (Maybe move these to pelican?)
+FEATURED_ARTICLES = 3
 
 from pelican import __version__
 PELICAN_VERSION = __version__
