@@ -1,7 +1,7 @@
 CONTENT = content
 OUTPUT  = output
 CONFIG  = peliconf.py
-THEME = mawa
+THEME = notmyidea
 
 blog: $(CONTENT)
 	pelican -s $(CONFIG) -t $(THEME) -o $(OUTPUT) $(CONTENT)
