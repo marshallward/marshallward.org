@@ -70,7 +70,7 @@ in :math:`V` is
 .. math::
 
     dV = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} dS
-        + \frac{\partial^2 V}{\partial S^2} (dS)^2.
+        + \frac{1}{2} \frac{\partial^2 V}{\partial S^2} (dS)^2.
 
 We also introduce an assumption about the stochastic form of the asset price,
 namely that it follows a geometric random walk:
@@ -90,8 +90,8 @@ Using this result, the :math:`V` differential becomes
 .. math::
 
     dV = \left( \frac{\partial V}{\partial t}
-               + \mu S \frac{\partial V}{\partial S}
-               + \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2}
+            + \mu S \frac{\partial V}{\partial S}
+            + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2}
          \right) dt
           + \sigma S \frac{\partial V}{\partial S} dW
 
@@ -100,8 +100,8 @@ When these are combined and applied to the portfolio differential, it becomes
 .. math::
 
     d\Pi = \left( \frac{\partial V}{\partial t}
-                 + \mu S \left( \frac{\partial V}{\partial S} + \Delta \right)
-                 + \mu^2 S^2 \frac{\partial^2 V}{\partial S^2}
+            + \mu S \left( \frac{\partial V}{\partial S} + \Delta \right)
+            + \frac{1}{2} \mu^2 S^2 \frac{\partial^2 V}{\partial S^2}
            \right) dt
             + \left( \frac{\partial V}{\partial S} + \Delta \right) dW
             + r C dt.
@@ -114,10 +114,10 @@ to share price. That is,
 
     \Delta = - \frac{\partial V}{\partial S}
 
-This would require us to sell short (:math:`\Delta < 0`) if option price rises
-relative to asset price. It also assumes that we have available cash :math:`C`
-to make such purchaes, which may require borrowing (:math:`C < 0`) at the
-market rate :math:`r`.
+This would require us to sell short (:math:`\Delta < 0`) if the option price
+rises relative to the asset price. It also assumes that we have available cash
+:math:`C` to make such purchases, which may require borrowing (:math:`C < 0`)
+at the market rate :math:`r`.
 
 If we purchase or sell shares in accordance with the non-volatility rule, then
 the portfolio value should evolve deterministically, so that
@@ -125,7 +125,7 @@ the portfolio value should evolve deterministically, so that
 .. math::
 
     d\Pi = \left( \frac{\partial V}{\partial t}
-                 + \mu^2 S^2 \frac{\partial^2 V}{\partial S^2} + r C
+            + \frac{1}{2} \mu^2 S^2 \frac{\partial^2 V}{\partial S^2} + r C
            \right) dt
 
 Although this differential form provides a deterministic method for predicting
@@ -156,7 +156,7 @@ equation in :math:`V`:
 
     r \left( V + S \Delta + C \right) dt
         = \left( \frac{\partial V}{\partial t}
-                + \mu^2 S^2 \frac{\partial^2 V}{\partial S^2} + r C
+            + \frac{1}{2} \mu^2 S^2 \frac{\partial^2 V}{\partial S^2} + r C
           \right) dt
 
 After various substitutions, we can construct a well-defined partial
@@ -164,7 +164,8 @@ differential equation for the option price :math:`V`:
 
 .. math::
 
-    \frac{\partial V}{\partial t} + \mu^2 S^2 \frac{\partial^2 V}{\partial S^2}
+    \frac{\partial V}{\partial t}
+        + \frac{1}{2} \mu^2 S^2 \frac{\partial^2 V}{\partial S^2}
         = r \left( V - S \frac{\partial V}{\partial S} \right)
 
 Along with the appopriate boundary conditions, solutions to this equation
