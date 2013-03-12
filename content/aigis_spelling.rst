@@ -2,7 +2,7 @@ Persona: Aegis or Aigis?
 ========================
 
 :date:      2012-10-30
-:tags:      persona aegis aigis
+:tags:      persona, aegis, aigis
 :category:  Gaming
 :author:    Marshall Ward
 :lang:      en
