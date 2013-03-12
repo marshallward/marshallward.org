@@ -4,7 +4,7 @@ Rambo NES doesn't use Zelda 2 code
 :category: Gaming
 :author: Marshall Ward
 :date: 2013-01-28 17:23
-:tags: nes rambo zelda bsdiff
+:tags: nes, rambo, zelda, bsdiff
 
 I occasionally read rumours that Rambo for the NES used code from
 Zelda 2, making it not much more than a ROM hack of the original cartridge.

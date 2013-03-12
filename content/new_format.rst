@@ -4,7 +4,7 @@ New Blog Format
 :date:      3-12-2012
 :author:    Marshall Ward
 :category:  Meta
-:tags:      blog pelican nginx
+:tags:      blog, pelican, nginx
 
 I may not update my blog very often, but at least I update the underlying
 software. The main changes are that I've replaced `Apache`_ with `nginx`_, and
