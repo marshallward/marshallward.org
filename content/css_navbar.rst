@@ -4,8 +4,8 @@ Horizontal Mouseover Submenus in CSS
 
 :date:      12-03-2013
 :author:    Marshall Ward
-:category:  web
-:tags:      html css nav
+:category:  Web
+:tags:      css, html, web
 
 In this document, I provide instructions on how to make a horizontal
 navigational bar with mouseover submenus using CSS. This is also an attempt to
