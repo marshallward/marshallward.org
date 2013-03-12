@@ -24,8 +24,8 @@ But just to be sure, I decided to put this theory to the test by using Colin
 Percival's `bsdiff`_ tool on the two ROMs. Each ROM was from the GoodSet
 collection, so the bitwise accuracy of each ROM is nearly perfect. I compared
 the US version of Zelda 2 to both the US and Japanese release of each game, and
-found exactly what I expected: There is no difference between the code between
-the two. The only contigous match in the ROMS are various streams of zeros and
+found exactly what I expected: There is no similarity in the code of the two
+games. The only contiguous match in the ROMs are various streams of zeros and
 ones ("FF") throughout the ROM, neither of which is significant of anything
 other than unused space in the ROM.
 
