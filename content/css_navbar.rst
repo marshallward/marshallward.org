@@ -100,7 +100,7 @@ horizontal navigation bar with vertical submenus on mouseover.
           display: block;
       }
 
-    But as far as I know, this isn't necessary.
+   But as far as I know, this isn't necessary.
 
 4. Finally, it's time to enable the mouseover menus. First disable the submenus
    on default:
