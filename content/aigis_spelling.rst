@@ -26,13 +26,13 @@ USA chose to romanise it as **Aigis**.
 But this isn't your typical oblivious romanisation problem. The localisation
 staff at Atlus USA managed to skilfully translate these games, which sit
 directly within contemporary Japan, and clearly know what they are doing. And
-yet the name obviously refers to the `mythical aegis` of ancient Greek and
+yet the name obviously refers to the `mythical aegis`_ of ancient Greek and
 Mediterranean culture, so why would they choose this alternative form? Well,
 it's just another romanisation problem, except this time it's Greek.
 
 In Greek, aegis is written as αἰγίς, which has different romanisations
 depending on the form y ou use. If we consult our handy `Greek romanisation
-chart` (and ignore the diacritic marks), then we can see that the diphthong
+chart`_ (and ignore the diacritic marks), then we can see that the diphthong
 *αι* can be transcribed as either *ae* or *ai*, depending on the format.
 
 So which is correct? While there is no right answer and translation is always a
@@ -40,7 +40,7 @@ matter of preference, let's try to see which one is at least the most
 consistent with the global community. "Classical" and "Scientific"
 romanisations probably represent ad hoc conventions that arose through academic
 research, and before notions of international convention even existed, so I'm
-going to overlook them and take `ISO 843` as an official romanisation.  In that
+going to overlook them and take `ISO 843`_ as an official romanisation.  In that
 case, **aigis** would appear to win out.
 
 But you might argue that it's clearly referring to the Ancient Greek myth of
