@@ -39,7 +39,7 @@ In my case, the solution was to use interfaces. My only requirement was that
 methods in A and B needed to have a field called Name. This is weak grounds to
 create a class relationship. So I created a ``IName`` interface, so that any
 class choosing to implement this interface had a Name. A and B could retain
-their independence, but still operate under the assumping of a ``Name`` field.
+their independence, but still operate under the assumption of a ``Name`` field.
 
 That wasn't the end of the story. It got a little more complicated because I
 eventually wanted an internal method to change Name in exceptional cases, even
